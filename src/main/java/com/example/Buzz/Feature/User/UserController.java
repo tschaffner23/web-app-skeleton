@@ -1,4 +1,4 @@
-package com.example.WebappSkeleton.Feature.User;
+package com.example.Buzz.Feature.User;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;

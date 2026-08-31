@@ -1,13 +1,13 @@
-package com.example.WebappSkeleton;
+package com.example.Buzz;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WebappSkeletonApplication {
+public class Buzz {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WebappSkeletonApplication.class, args);
+		SpringApplication.run(Buzz.class, args);
 	}
 
 }
