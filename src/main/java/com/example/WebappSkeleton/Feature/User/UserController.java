@@ -1,7 +1,6 @@
-package com.example.WebappSkeleton.Feature.FeatureOne;
+package com.example.WebappSkeleton.Feature.User;
 
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,7 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 
 @RestController
-public class FeatureOneController {
+public class UserController {
     
     @GetMapping("path")
     public String getMethodName(@RequestParam String param) {
@@ -33,7 +32,5 @@ public class FeatureOneController {
         
         return entity;
     }
-    
-    @DeleteMapping
     
 }
